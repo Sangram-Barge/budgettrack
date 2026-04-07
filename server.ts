@@ -7,7 +7,8 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const db = new Database("budget.db");
+const dbPath = process.env.DB_PATH || "budget.db";
+const db = new Database(dbPath);
 
 // Initialize database
 db.exec(`

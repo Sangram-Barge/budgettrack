@@ -18,6 +18,7 @@ A simple budget tracking application built with React, Express, and SQLite.
    ```bash
    docker-compose up --build
    ```
+   This will create a `data` directory in your project root to persist the SQLite database.
 4. Access the application at `http://localhost:3000`.
 
 ## Local Development

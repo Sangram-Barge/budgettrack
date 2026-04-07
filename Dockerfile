@@ -25,7 +25,7 @@ COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/server.ts ./
 COPY --from=builder /app/src/types.ts ./src/types.ts
 # Note: tsx is needed to run server.ts directly
-RUN npm install -g tsx
+RUN npm install -g tsx && mkdir -p /app/data
 
 EXPOSE 3000
 
