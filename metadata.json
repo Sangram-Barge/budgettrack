@@ -1,0 +1,5 @@
+{
+  "name": "BudgetTrack",
+  "description": "A simple, self-hosted budget tracking application with daily transactions, expected vs actual charts, and monthly reports.",
+  "requestFramePermissions": []
+}

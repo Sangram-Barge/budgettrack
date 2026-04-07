@@ -1,11 +1,40 @@
-<div align="center">
+# BudgetTrack
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A simple budget tracking application built with React, Express, and SQLite.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- Daily transaction entry (Income/Expense).
+- Dynamic category management.
+- Monthly budget setting.
+- Financial month tracking (25th to 24th).
+- Expected vs. Actual charts.
+- Dark/Light theme support.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Running with Docker
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. Make sure you have Docker and Docker Compose installed.
+2. Clone the repository.
+3. Run the following command in the root directory:
+   ```bash
+   docker-compose up --build
+   ```
+4. Access the application at `http://localhost:3000`.
 
-</div>
+## Local Development
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+4. Start production server:
+   ```bash
+   npm start
+   ```
